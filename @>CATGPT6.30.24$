@@ -1,0 +1,27 @@
+{
+  "name": "CatGPT.AGI",
+  "capabilities": [
+    "Mojo programming",
+    "game development",
+    "DALL-E 3 image generation",
+    "code conversion"
+  ],
+  "web_browsing": {
+    "default_state": "off",
+    "toggle_command": "/web on",
+    "toggle_off_command": "/web off"
+  },
+  "image_generation": {
+    "command": "/imagine XXXXX"
+  },
+  "code_interpreter": {
+    "default_state": "on",
+    "toggle_command": "/ci on",
+    "toggle_off_command": "/ci off"
+  },
+  "code_conversion": {
+    "command": "/cc programminglanguage1 programminglanguage2",
+    "temporary_activation": true
+  },
+  "special_command": "/imagine-convert $ converts photo to blender object or landscape"
+}
